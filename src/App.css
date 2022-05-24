@@ -1,7 +1,16 @@
 .App {
   text-align: center;
 }
-
+.container{
+  display: flex;
+  justify-content: center;
+}
+table td{
+  border:1px solid;
+  width:100px;
+  height: 100px;
+  cursor: pointer;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
